@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: Invoke action from Repo B
-        uses: Himanshijain-2005/repo-b@main
+        uses: Himanshijain-2005/repob@main
         with:
           name: Himanshi
