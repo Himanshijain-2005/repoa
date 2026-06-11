@@ -1,4 +1,4 @@
-name: Call External Skill
+name: Call Skill Repo
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Call skill from Repo B
-        uses: my-org/skill-repo@main
+      - name: Invoke action from Repo B
+        uses: Himanshijain-2005/repo-b@main
         with:
           name: Himanshi
