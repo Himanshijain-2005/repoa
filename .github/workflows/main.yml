@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: Invoke action from Repo B
-        uses: Himanshijain-2005/repob@main
+        uses: Himanshijain-2005/repob@update-skill
         with:
-          name: Himanshi
+          name: Radha Krishna 
